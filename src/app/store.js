@@ -5,4 +5,5 @@ export const store = configureStore({
   reducer: {
     basket: basketReducer,
   },
+  devTools: process.env.NODE_ENV !== "production",
 });
